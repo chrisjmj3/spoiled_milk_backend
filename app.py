@@ -7,7 +7,7 @@ import os
 from flask_cors import CORS
 
 app = Flask(__name__)
-CORS(app, origins=["http://localhost:5173"])  # Change port if needed
+CORS(app, origins=["http://localhost:5173","https://milk-spoilage-detection-kv3v.vercel.app/"])  # Change port if needed
 
 # Configure upload folder
 UPLOAD_FOLDER = 'uploads'
