@@ -116,7 +116,7 @@ def process_image(image_data):
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    return "its working"
 
 
 @app.route('/upload', methods=['POST'])
