@@ -118,7 +118,7 @@ def process_image(image_data):
 def index():
     return "its working"
 
-
+   
 @app.route('/upload', methods=['POST'])
 def upload_file():
     if 'image' not in request.files:
